@@ -1,0 +1,78 @@
+---
+title: "Final Projects - Part 1"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+# SPECIAL CHARACTERS { }  [[ ]]  ~
+
+```
+
+```{r Libraries, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+
+# launch all appropriate libraries first
+library(readr)
+library(tibble)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(visdat) #to visually identify missing datas
+
+#THIS ONE TO COMMENT BEFORE FINAL KNIT
+#library(tidylog)
+
+# CHARTS
+library(ggplot2)
+library(ggthemes)
+# library(ggpmological)
+library(hrbrthemes)
+library(ggmap)
+
+library(leaflet)
+library(purrr)
+library(knitr)
+library(kableExtra)
+library(janitor)
+library(stringr)
+library(readxl)
+library(datapasta)
+library(tinytex) #To knit as PDF, not sure useful here 
+library(infer)
+
+# devtools::install_github("SurgicalInformatics/encryptr")
+library(encryptr)
+library(digest)
+# genkeys() ## Generates both public and private keys in current directory
+# encrypt_vec stands for “encrypt vector”
+
+# libraries to connect to databases
+# install.packages("DBI")
+
+# install.packages("RSQLite")
+library(DBI)
+library(RSQLite)
+library(RPostgres)
+
+# to help having good style with our RMarkdown documents
+library(lintr)
+library(styler)
+
+#HTML Javascript
+library(plotly)
+library(gganimate) #extension of ggplot2 
+library(shiny)
+
+#Jason XML 
+library(jsonlite)
+library(xml2)
+library(httr)
+
+#Images packages
+# library(magick)
+# library(imager)
+
+#pdf
+# library(rJava)
+library(tabulizer)
+library(rvest)
+```
