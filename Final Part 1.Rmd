@@ -3,9 +3,12 @@ title: "Final Projects - Part 1 "
 output: html_notebook
 ---
 
-```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 # SPECIAL CHARACTERS { }  [[ ]]  ~
 
+# Create Git connection in Terminal
+# git remote add origin https://github.com/nchambettaz/myrepository.git
+# git push -u origin master    #login & password GITHUB
 ```
 
 ```{r Libraries, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
