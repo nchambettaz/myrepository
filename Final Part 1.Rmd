@@ -1,5 +1,5 @@
 ---
-title: "Final Projects - Part 1"
+title: "Final Projects - Part 1 "
 output: html_notebook
 ---
 
